@@ -1,0 +1,50 @@
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .row.g-0 {
+            min-height: 100vh;
+        }
+
+        .panel-recruiter {
+            background-color: #0d6efd;
+            color: white;
+            padding: 3rem;
+        }
+
+        .panel-job-seeker {
+            background-color: #58c2ff;
+            color: white;
+            padding: 3rem;
+        }
+
+        .panel-illustration {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 2rem;
+        }
+
+        .btn-custom {
+            font-weight: 500;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+        }
+        
+        .login-link {
+            color: white;
+            text-decoration: underline;
+        }
+        .login-link:hover {
+            color: #f0f0f0;
+        }
+
+        @media (max-width: 767.98px) {
+            .row.g-0 {
+                min-height: auto;
+            }
+            .panel-recruiter, .panel-job-seeker {
+                min-height: 50vh;
+            }
+        }
